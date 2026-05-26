@@ -141,7 +141,7 @@ export const featuredProjects = [
     techStack: ['Kubernetes', 'Helm', 'Kustomize', 'NGINX', 'HPA', 'NetworkPolicy'],
     description:
       'Production-shaped Kubernetes demo that deploys, configures, secures, scales, and self-heals an NGINX workload from a single folder. Covers Deployment, Service, Ingress, ConfigMap/Secret, HPA-driven autoscaling, RBAC with ServiceAccount + Role, and NetworkPolicy isolation — with a load-generator Job that drives the HPA.',
-    githubLink: `${siteConfig.githubUrl}/k8s-traffic-simulation`,
+    githubLink: 'https://github.com/piujape09/KubeTraffic',
     liveLink: '',
   },
   {
@@ -163,7 +163,7 @@ export const featuredProjects = [
     techStack: ['Spring Boot', 'Spring Security', 'MySQL', 'ReactJS', 'JWT'],
     description:
       'Production-grade full-stack app with JWT auth, role-based access (ADMIN/STUDENT), Spring Boot REST APIs and a ReactJS + Vite frontend. Deployed on Vercel (frontend), Render (backend), and TiDB Cloud Serverless (MySQL). Demo credentials: admin / Admin@1234.',
-    githubLink: `${siteConfig.githubUrl}/student-management-system`,
+    githubLink: 'https://github.com/piujape09/student-management-system',
     liveLink: 'https://student-management-system-eight-omega.vercel.app',
     backendLink: 'https://sms-backend-2kjt.onrender.com',
   },
