@@ -134,6 +134,17 @@ export const skillCategories = [
 
 export const featuredProjects = [
   {
+    id: 'kubetraffic',
+    title: 'KubeTraffic – Kubernetes Traffic Simulation & Observability',
+    eyebrow: 'DevOps Project',
+    image: projectPipeline,
+    techStack: ['Kubernetes', 'Helm', 'Kustomize', 'NGINX', 'HPA', 'NetworkPolicy'],
+    description:
+      'Production-shaped Kubernetes demo that deploys, configures, secures, scales, and self-heals an NGINX workload from a single folder. Covers Deployment, Service, Ingress, ConfigMap/Secret, HPA-driven autoscaling, RBAC with ServiceAccount + Role, and NetworkPolicy isolation — with a load-generator Job that drives the HPA.',
+    githubLink: `${siteConfig.githubUrl}/k8s-traffic-simulation`,
+    liveLink: '',
+  },
+  {
     id: 'nova-ai',
     title: 'NOVA – Multi-Agent AI Assistant Platform',
     eyebrow: 'Featured Project',
@@ -149,11 +160,12 @@ export const featuredProjects = [
     title: 'Student Management System',
     eyebrow: 'Full-Stack Project',
     image: projectPipeline,
-    techStack: ['Spring Boot', 'Spring Security', 'MySQL', 'ReactJS'],
+    techStack: ['Spring Boot', 'Spring Security', 'MySQL', 'ReactJS', 'JWT'],
     description:
-      'Secure REST APIs with role-based authentication, integrated with a ReactJS frontend and a Spring Boot backend for managing student records end to end.',
-    githubLink: siteConfig.githubUrl,
-    liveLink: '',
+      'Production-grade full-stack app with JWT auth, role-based access (ADMIN/STUDENT), Spring Boot REST APIs and a ReactJS + Vite frontend. Deployed on Vercel (frontend), Render (backend), and TiDB Cloud Serverless (MySQL). Demo credentials: admin / Admin@1234.',
+    githubLink: `${siteConfig.githubUrl}/student-management-system`,
+    liveLink: 'https://student-management-system-eight-omega.vercel.app',
+    backendLink: 'https://sms-backend-2kjt.onrender.com',
   },
   {
     id: 'conference-website',
